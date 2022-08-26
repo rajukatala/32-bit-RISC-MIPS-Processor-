@@ -1,0 +1,118 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 2928
+
+Current time: 	8/26/22 10:06:16 AM IST
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	admin
+User home directory: C:/Users/admin
+User working directory: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	209 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 466 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\admin\VIVADO project\MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE\MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.xpr. Version: Vivado v2015.4 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.xpr} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 48 MB (+48137kb) [00:00:05]
+// [Engine Memory]: 397 MB (+265095kb) [00:00:05]
+// [GUI Memory]: 60 MB (+9550kb) [00:00:05]
+// [GUI Memory]: 69 MB (+6556kb) [00:00:05]
+// [Engine Memory]: 441 MB (+25163kb) [00:00:05]
+// [Engine Memory]: 464 MB (+695kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE; location: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE; part: xc7a75tcsg324-3
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 476 MB. GUI used memory: 30 MB. Current time: 8/26/22 10:06:18 AM IST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPS32_PIPELINE (MIPS32_PIPELINE.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPS32_PIPELINE (MIPS32_PIPELINE.v), IF_stage - IF (MIPS32_PIPELINE.v)]", 2, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 13, 181); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 13, 181); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 77, 386); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 16, 520); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey(null, null, 'z');
+// Elapsed time: 20 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 236, 418); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 78 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 574, 423); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 630, 420); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 215, 445); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 223, 428); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 56 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 419, 435); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 478, 434); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 439, 435); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 469, 435); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 227, 498); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 224, 479); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 182, 378); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 48 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 702, 381); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 748, 387); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 654, 364); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 314, 539); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 135, 547); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 385, 435); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 382, 548); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 455, 550); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MIPS32_PIPELINE.v", 543, 557); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("MIPS32_PIPELINE.v", 463, 342, false, false, false, true, false); // bl:J (JPanel:JComponent, cq:JFrame) - Popup Trigger
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

@@ -1,0 +1,94 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 2104
+
+Current time: 	8/26/22 10:14:34 AM IST
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	admin
+User home directory: C:/Users/admin
+User working directory: C:/Users/admin/VIVADO project/project_32bit_risc_processor
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	222 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 458 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\admin\VIVADO project\project_32bit_risc_processor\project_32bit_risc_processor.xpr. Version: Vivado v2015.4 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+49289kb) [00:00:03]
+// [Engine Memory]: 405 MB (+272693kb) [00:00:03]
+// [GUI Memory]: 62 MB (+10250kb) [00:00:03]
+// [GUI Memory]: 70 MB (+5756kb) [00:00:04]
+// [Engine Memory]: 429 MB (+4078kb) [00:00:04]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project {C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 457 MB (+7572kb) [00:00:05]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_32bit_risc_processor; location: C:/Users/admin/VIVADO project/project_32bit_risc_processor; part: xc7a50tcsg324-3
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 464 MB. GUI used memory: 30 MB. Current time: 8/26/22 10:14:36 AM IST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_PROCESSOR (control_path.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_PROCESSOR (control_path.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+// Elapsed time: 147 seconds
+selectCodeEditor("control_path.v", 123, 88); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("control_path.v", 140, 74); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("control_path.v", 224, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("control_path.v", 254, 76); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("control_path.v", 417, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("control_path.v", 413, 83); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("control_path.v", 168, 161); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("control_path.v", 107, 174); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("control_path.v", 280, 179); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("control_path.v", 300, 179); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

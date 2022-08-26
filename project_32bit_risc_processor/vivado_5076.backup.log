@@ -1,0 +1,2197 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Sat Nov 06 10:07:10 2021
+# Process ID: 5076
+# Current directory: C:/Users/admin/VIVADO project/project_32bit_risc_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7408 C:\Users\admin\VIVADO project\project_32bit_risc_processor\project_32bit_risc_processor.xpr
+# Log file: C:/Users/admin/VIVADO project/project_32bit_risc_processor/vivado.log
+# Journal file: C:/Users/admin/VIVADO project/project_32bit_risc_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project {C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a75tcsg324-3
+Top: MIPS32_PIPELINE
+ERROR: [Synth 8-2537] port rest is not defined [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:25]
+INFO: [Synth 8-2350] module MIPS32_PIPELINE ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+ERROR: [Synth 8-993] jump is an unknown type [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:63]
+INFO: [Synth 8-2350] module IF ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-2350] module Latch ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-2350] module mux ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-2350] module pc ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-2350] module add ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-2350] module IM ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-2350] module ID ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-2350] module Latch1 ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:180]
+INFO: [Synth 8-2350] module mmux ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:211]
+INFO: [Synth 8-2350] module regbank ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:220]
+INFO: [Synth 8-2350] module signex ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:246]
+INFO: [Synth 8-2350] module EX ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:254]
+INFO: [Synth 8-2350] module adder ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:274]
+INFO: [Synth 8-2350] module ALU ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:282]
+INFO: [Synth 8-2350] module alucontrol ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:405]
+INFO: [Synth 8-2350] module Latch2 ignored due to previous errors [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:446]
+Failed to read verilog 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v'
+17 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a75tcsg324-3
+Top: MIPS32_PIPELINE
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:07:05 ; elapsed = 10:30:07 . Memory (MB): peak = 978.563 ; gain = 807.063
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPS32_PIPELINE' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+INFO: [Synth 8-638] synthesizing module 'IF' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-256] done synthesizing module 'mux' (1#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-638] synthesizing module 'IM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-256] done synthesizing module 'IM' (3#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-638] synthesizing module 'add' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'add' (4#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'IF' (5#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'Latch' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-256] done synthesizing module 'Latch' (6#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'control_path' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:534]
+INFO: [Synth 8-256] done synthesizing module 'control_path' (7#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:534]
+INFO: [Synth 8-638] synthesizing module 'regbank' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:220]
+INFO: [Synth 8-256] done synthesizing module 'regbank' (8#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:220]
+INFO: [Synth 8-638] synthesizing module 'signex' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:246]
+INFO: [Synth 8-256] done synthesizing module 'signex' (9#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:246]
+WARNING: [Synth 8-3848] Net Instr15_11 in module/entity ID does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:159]
+WARNING: [Synth 8-3848] Net Instr20_16 in module/entity ID does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:159]
+WARNING: [Synth 8-3848] Net Instr5_0 in module/entity ID does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:159]
+INFO: [Synth 8-256] done synthesizing module 'ID' (10#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'Latch1' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:180]
+INFO: [Synth 8-256] done synthesizing module 'Latch1' (11#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:180]
+INFO: [Synth 8-638] synthesizing module 'EX' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:254]
+INFO: [Synth 8-638] synthesizing module 'mmux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:211]
+INFO: [Synth 8-256] done synthesizing module 'mmux' (12#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:211]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:274]
+INFO: [Synth 8-256] done synthesizing module 'adder' (13#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:274]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:282]
+	Parameter ADD bound to: 4'b0000 
+	Parameter SUB bound to: 4'b0001 
+	Parameter AND bound to: 4'b0010 
+	Parameter OR bound to: 4'b0011 
+	Parameter NOT bound to: 4'b0100 
+	Parameter MUL bound to: 4'b0101 
+	Parameter DIV bound to: 4'b0110 
+	Parameter RSHIFT bound to: 4'b0111 
+	Parameter LSHIFT bound to: 4'b1000 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:282]
+INFO: [Synth 8-638] synthesizing module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:405]
+INFO: [Synth 8-256] done synthesizing module 'alucontrol' (15#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:405]
+WARNING: [Synth 8-689] width (5) of port connection 'fun' does not match port width (6) of module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:269]
+INFO: [Synth 8-256] done synthesizing module 'EX' (16#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:254]
+WARNING: [Synth 8-689] width (1) of port connection 'id_ex_eadData1' does not match port width (32) of module 'EX' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+INFO: [Synth 8-638] synthesizing module 'Latch2' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:446]
+INFO: [Synth 8-256] done synthesizing module 'Latch2' (17#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:446]
+INFO: [Synth 8-638] synthesizing module 'MEM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:475]
+INFO: [Synth 8-638] synthesizing module 'datamemory' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:507]
+	Parameter addr_size bound to: 32 - type: integer 
+	Parameter word_size bound to: 32 - type: integer 
+	Parameter memory_size bound to: 1024 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'datamemory' (18#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:507]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (19#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:475]
+INFO: [Synth 8-638] synthesizing module 'Latch3' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:487]
+INFO: [Synth 8-256] done synthesizing module 'Latch3' (20#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:487]
+INFO: [Synth 8-638] synthesizing module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:524]
+INFO: [Synth 8-256] done synthesizing module 'Wb' (21#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:524]
+WARNING: [Synth 8-689] width (1) of port connection 'muxout1' does not match port width (32) of module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+WARNING: [Synth 8-3848] Net id_ex_eadData1 in module/entity MIPS32_PIPELINE does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+WARNING: [Synth 8-3848] Net BranchAddress in module/entity MIPS32_PIPELINE does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:27]
+WARNING: [Synth 8-3848] Net writeData in module/entity MIPS32_PIPELINE does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:27]
+INFO: [Synth 8-256] done synthesizing module 'MIPS32_PIPELINE' (22#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:07:06 ; elapsed = 10:30:08 . Memory (MB): peak = 1008.707 ; gain = 837.207
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[31] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[30] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[29] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[28] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[27] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[26] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[25] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[24] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[23] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[22] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[21] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[20] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[19] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[18] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[17] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[16] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[15] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[14] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[13] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[12] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[11] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[10] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[9] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[8] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[7] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[6] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[5] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[4] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[3] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[2] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[1] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin IF_stage:BranchAddress[0] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:35]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[31] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[30] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[29] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[28] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[27] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[26] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[25] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[24] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[23] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[22] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[21] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[20] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[19] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[18] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[17] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[16] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[15] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[14] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[13] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[12] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[11] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[10] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[9] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[8] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[7] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[6] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[5] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[4] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[3] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[2] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[1] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[0] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin EX_stge:id_ex_eadData1[0] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:07:06 ; elapsed = 10:30:08 . Memory (MB): peak = 1008.707 ; gain = 837.207
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a75tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:07:16 ; elapsed = 10:30:17 . Memory (MB): peak = 1294.566 ; gain = 1123.066
+48 Infos, 74 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1294.566 ; gain = 319.551
+close_design
+file mkdir C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new
+file mkdir C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new
+file mkdir C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new
+file mkdir C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new
+file mkdir C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new
+file mkdir {C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new}
+close [ open {C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v} w ]
+add_files -fileset sim_1 {{C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-2458] undeclared symbol id_ex_eadData1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+INFO: [VRFC 10-2458] undeclared symbol muxout1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port id_ex_eadData1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 6 for port fun [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:269]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port muxout1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 20:49:50 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1323.926 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-2458] undeclared symbol id_ex_eadData1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+INFO: [VRFC 10-2458] undeclared symbol muxout1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port id_ex_eadData1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 6 for port fun [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:269]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port muxout1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 20:51:28 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1323.926 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-2458] undeclared symbol id_ex_eadData1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+INFO: [VRFC 10-2458] undeclared symbol muxout1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port id_ex_eadData1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 6 for port fun [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:269]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port muxout1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 20:57:52 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1323.926 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-2458] undeclared symbol id_ex_eadData1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+INFO: [VRFC 10-2458] undeclared symbol muxout1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port id_ex_eadData1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:46]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 6 for port fun [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:269]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port muxout1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Cannot create temporary file in C:\Users\admin\AppData\Local\Temp\: Permission denied
+x86_64-w64-mingw32-gcc.exe: Internal error: Aborted (program collect2)
+Please submit a full bug report.
+See <http://gcc.gnu.org/bugs.html> for instructions.
+ERROR: [XSIM 43-3238] Failed to link the design.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-2458] undeclared symbol muxout1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 6 for port fun [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:269]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port muxout1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 21:10:29 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a75tcsg324-3
+Top: MIPS32_PIPELINE
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:09:10 ; elapsed = 11:04:12 . Memory (MB): peak = 1323.926 ; gain = 1152.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPS32_PIPELINE' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+INFO: [Synth 8-638] synthesizing module 'IF' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-256] done synthesizing module 'mux' (1#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-638] synthesizing module 'IM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-256] done synthesizing module 'IM' (3#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-638] synthesizing module 'add' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'add' (4#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'IF' (5#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'Latch' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-256] done synthesizing module 'Latch' (6#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'control_path' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:534]
+INFO: [Synth 8-256] done synthesizing module 'control_path' (7#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:534]
+INFO: [Synth 8-638] synthesizing module 'regbank' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:220]
+INFO: [Synth 8-256] done synthesizing module 'regbank' (8#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:220]
+INFO: [Synth 8-638] synthesizing module 'signex' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:246]
+INFO: [Synth 8-256] done synthesizing module 'signex' (9#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:246]
+WARNING: [Synth 8-3848] Net Instr15_11 in module/entity ID does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:159]
+WARNING: [Synth 8-3848] Net Instr20_16 in module/entity ID does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:159]
+WARNING: [Synth 8-3848] Net Instr5_0 in module/entity ID does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:159]
+INFO: [Synth 8-256] done synthesizing module 'ID' (10#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'Latch1' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:180]
+INFO: [Synth 8-256] done synthesizing module 'Latch1' (11#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:180]
+INFO: [Synth 8-638] synthesizing module 'EX' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:254]
+INFO: [Synth 8-638] synthesizing module 'mmux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:211]
+INFO: [Synth 8-256] done synthesizing module 'mmux' (12#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:211]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:274]
+INFO: [Synth 8-256] done synthesizing module 'adder' (13#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:274]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:282]
+	Parameter ADD bound to: 4'b0000 
+	Parameter SUB bound to: 4'b0001 
+	Parameter AND bound to: 4'b0010 
+	Parameter OR bound to: 4'b0011 
+	Parameter NOT bound to: 4'b0100 
+	Parameter MUL bound to: 4'b0101 
+	Parameter DIV bound to: 4'b0110 
+	Parameter RSHIFT bound to: 4'b0111 
+	Parameter LSHIFT bound to: 4'b1000 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:282]
+INFO: [Synth 8-638] synthesizing module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:405]
+INFO: [Synth 8-256] done synthesizing module 'alucontrol' (15#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:405]
+WARNING: [Synth 8-689] width (5) of port connection 'fun' does not match port width (6) of module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:269]
+INFO: [Synth 8-256] done synthesizing module 'EX' (16#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:254]
+INFO: [Synth 8-638] synthesizing module 'Latch2' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:446]
+INFO: [Synth 8-256] done synthesizing module 'Latch2' (17#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:446]
+INFO: [Synth 8-638] synthesizing module 'MEM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:475]
+INFO: [Synth 8-638] synthesizing module 'datamemory' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:507]
+	Parameter addr_size bound to: 32 - type: integer 
+	Parameter word_size bound to: 32 - type: integer 
+	Parameter memory_size bound to: 1024 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'datamemory' (18#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:507]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (19#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:475]
+INFO: [Synth 8-638] synthesizing module 'Latch3' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:487]
+INFO: [Synth 8-256] done synthesizing module 'Latch3' (20#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:487]
+INFO: [Synth 8-638] synthesizing module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:524]
+INFO: [Synth 8-256] done synthesizing module 'Wb' (21#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:524]
+WARNING: [Synth 8-689] width (1) of port connection 'muxout1' does not match port width (32) of module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+WARNING: [Synth 8-3848] Net writeData in module/entity MIPS32_PIPELINE does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:27]
+INFO: [Synth 8-256] done synthesizing module 'MIPS32_PIPELINE' (22#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:09:11 ; elapsed = 11:04:13 . Memory (MB): peak = 1323.926 ; gain = 1152.426
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[31] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[30] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[29] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[28] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[27] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[26] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[25] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[24] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[23] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[22] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[21] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[20] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[19] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[18] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[17] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[16] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[15] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[14] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[13] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[12] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[11] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[10] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[9] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[8] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[7] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[6] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[5] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[4] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[3] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[2] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[1] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[0] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:09:11 ; elapsed = 11:04:13 . Memory (MB): peak = 1323.926 ; gain = 1152.426
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:09:15 ; elapsed = 11:04:15 . Memory (MB): peak = 1405.305 ; gain = 1233.805
+47 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1405.305 ; gain = 81.379
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a75tcsg324-3
+Top: MIPS32_PIPELINE
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:09:54 ; elapsed = 12:17:45 . Memory (MB): peak = 1405.305 ; gain = 1233.805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPS32_PIPELINE' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+INFO: [Synth 8-638] synthesizing module 'IF' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-256] done synthesizing module 'mux' (1#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-638] synthesizing module 'IM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-256] done synthesizing module 'IM' (3#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-638] synthesizing module 'add' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'add' (4#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'IF' (5#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'Latch' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-256] done synthesizing module 'Latch' (6#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'control_path' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:536]
+INFO: [Synth 8-256] done synthesizing module 'control_path' (7#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:536]
+INFO: [Synth 8-638] synthesizing module 'regbank' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:222]
+INFO: [Synth 8-256] done synthesizing module 'regbank' (8#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:222]
+INFO: [Synth 8-638] synthesizing module 'signex' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:248]
+INFO: [Synth 8-256] done synthesizing module 'signex' (9#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:248]
+INFO: [Synth 8-256] done synthesizing module 'ID' (10#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'Latch1' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:182]
+INFO: [Synth 8-256] done synthesizing module 'Latch1' (11#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:182]
+INFO: [Synth 8-638] synthesizing module 'EX' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:256]
+INFO: [Synth 8-638] synthesizing module 'mmux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:213]
+INFO: [Synth 8-256] done synthesizing module 'mmux' (12#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:213]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:276]
+INFO: [Synth 8-256] done synthesizing module 'adder' (13#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:276]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:284]
+	Parameter ADD bound to: 4'b0000 
+	Parameter SUB bound to: 4'b0001 
+	Parameter AND bound to: 4'b0010 
+	Parameter OR bound to: 4'b0011 
+	Parameter NOT bound to: 4'b0100 
+	Parameter MUL bound to: 4'b0101 
+	Parameter DIV bound to: 4'b0110 
+	Parameter RSHIFT bound to: 4'b0111 
+	Parameter LSHIFT bound to: 4'b1000 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:284]
+INFO: [Synth 8-638] synthesizing module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:407]
+INFO: [Synth 8-256] done synthesizing module 'alucontrol' (15#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:407]
+WARNING: [Synth 8-689] width (5) of port connection 'fun' does not match port width (6) of module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:271]
+INFO: [Synth 8-256] done synthesizing module 'EX' (16#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:256]
+INFO: [Synth 8-638] synthesizing module 'Latch2' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:448]
+INFO: [Synth 8-256] done synthesizing module 'Latch2' (17#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:448]
+INFO: [Synth 8-638] synthesizing module 'MEM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:477]
+INFO: [Synth 8-638] synthesizing module 'datamemory' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:509]
+	Parameter addr_size bound to: 32 - type: integer 
+	Parameter word_size bound to: 32 - type: integer 
+	Parameter memory_size bound to: 1024 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'datamemory' (18#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:509]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (19#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:477]
+INFO: [Synth 8-638] synthesizing module 'Latch3' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:489]
+INFO: [Synth 8-256] done synthesizing module 'Latch3' (20#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:489]
+INFO: [Synth 8-638] synthesizing module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:526]
+INFO: [Synth 8-256] done synthesizing module 'Wb' (21#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:526]
+WARNING: [Synth 8-689] width (1) of port connection 'muxout1' does not match port width (32) of module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+WARNING: [Synth 8-3848] Net writeData in module/entity MIPS32_PIPELINE does not have driver. [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:27]
+INFO: [Synth 8-256] done synthesizing module 'MIPS32_PIPELINE' (22#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:09:55 ; elapsed = 12:17:45 . Memory (MB): peak = 1405.305 ; gain = 1233.805
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[31] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[30] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[29] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[28] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[27] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[26] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[25] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[24] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[23] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[22] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[21] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[20] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[19] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[18] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[17] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[16] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[15] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[14] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[13] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[12] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[11] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[10] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[9] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[8] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[7] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[6] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[5] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[4] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[3] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[2] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[1] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+WARNING: [Synth 8-3295] tying undriven pin ID_stage:writeData[0] to constant 0 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:39]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:09:55 ; elapsed = 12:17:46 . Memory (MB): peak = 1405.305 ; gain = 1233.805
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:09:59 ; elapsed = 12:17:47 . Memory (MB): peak = 1430.301 ; gain = 1258.801
+47 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1430.301 ; gain = 24.996
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-2458] undeclared symbol muxout1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 6 for port fun [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:271]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port muxout1 [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:57]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 22:25:49 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1430.301 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2458] undeclared symbol id_ex_eadData1, assumed default net type wire [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:274]
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port a [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:274]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 22:47:00 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1430.301 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 22:50:45 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1430.301 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a75tcsg324-3
+Top: MIPS32_PIPELINE
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:11:10 ; elapsed = 12:44:06 . Memory (MB): peak = 1430.301 ; gain = 1258.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPS32_PIPELINE' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+INFO: [Synth 8-638] synthesizing module 'IF' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-256] done synthesizing module 'mux' (1#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-638] synthesizing module 'IM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-256] done synthesizing module 'IM' (3#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-638] synthesizing module 'add' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'add' (4#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'IF' (5#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'Latch' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-256] done synthesizing module 'Latch' (6#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'control_path' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:540]
+INFO: [Synth 8-256] done synthesizing module 'control_path' (7#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:540]
+INFO: [Synth 8-638] synthesizing module 'regbank' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:225]
+INFO: [Synth 8-256] done synthesizing module 'regbank' (8#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:225]
+INFO: [Synth 8-638] synthesizing module 'signex' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:251]
+INFO: [Synth 8-256] done synthesizing module 'signex' (9#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:251]
+INFO: [Synth 8-256] done synthesizing module 'ID' (10#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'Latch1' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:183]
+INFO: [Synth 8-256] done synthesizing module 'Latch1' (11#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:183]
+INFO: [Synth 8-638] synthesizing module 'EX' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:259]
+INFO: [Synth 8-638] synthesizing module 'mmux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:216]
+INFO: [Synth 8-256] done synthesizing module 'mmux' (12#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:216]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:280]
+INFO: [Synth 8-256] done synthesizing module 'adder' (13#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:280]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:288]
+	Parameter ADD bound to: 4'b0000 
+	Parameter SUB bound to: 4'b0001 
+	Parameter AND bound to: 4'b0010 
+	Parameter OR bound to: 4'b0011 
+	Parameter NOT bound to: 4'b0100 
+	Parameter MUL bound to: 4'b0101 
+	Parameter DIV bound to: 4'b0110 
+	Parameter RSHIFT bound to: 4'b0111 
+	Parameter LSHIFT bound to: 4'b1000 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:288]
+INFO: [Synth 8-638] synthesizing module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:411]
+INFO: [Synth 8-256] done synthesizing module 'alucontrol' (15#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:411]
+INFO: [Synth 8-256] done synthesizing module 'EX' (16#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:259]
+INFO: [Synth 8-638] synthesizing module 'Latch2' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:452]
+INFO: [Synth 8-256] done synthesizing module 'Latch2' (17#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:452]
+INFO: [Synth 8-638] synthesizing module 'MEM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:481]
+INFO: [Synth 8-638] synthesizing module 'datamemory' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:513]
+	Parameter addr_size bound to: 32 - type: integer 
+	Parameter word_size bound to: 32 - type: integer 
+	Parameter memory_size bound to: 1024 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'datamemory' (18#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:513]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (19#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:481]
+INFO: [Synth 8-638] synthesizing module 'Latch3' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:493]
+INFO: [Synth 8-256] done synthesizing module 'Latch3' (20#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:493]
+INFO: [Synth 8-638] synthesizing module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:530]
+INFO: [Synth 8-256] done synthesizing module 'Wb' (21#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:530]
+INFO: [Synth 8-256] done synthesizing module 'MIPS32_PIPELINE' (22#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:11:11 ; elapsed = 12:44:07 . Memory (MB): peak = 1430.301 ; gain = 1258.801
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:11:11 ; elapsed = 12:44:07 . Memory (MB): peak = 1430.301 ; gain = 1258.801
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:11:14 ; elapsed = 12:44:09 . Memory (MB): peak = 1438.469 ; gain = 1266.969
+47 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1438.469 ; gain = 8.168
+close_design
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Cannot create temporary file in C:\Users\admin\AppData\Local\Temp\: Permission denied
+x86_64-w64-mingw32-gcc.exe: Internal error: Aborted (program collect2)
+Please submit a full bug report.
+See <http://gcc.gnu.org/bugs.html> for instructions.
+ERROR: [XSIM 43-3238] Failed to link the design.
+INFO: [USF-XSim-99] Step results log file:'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/elaborate.log' file for more information.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 23:03:57 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1438.469 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a75tcsg324-3
+Top: MIPS32_PIPELINE
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:12:13 ; elapsed = 12:58:08 . Memory (MB): peak = 1438.469 ; gain = 1266.969
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPS32_PIPELINE' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+INFO: [Synth 8-638] synthesizing module 'IF' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-256] done synthesizing module 'mux' (1#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:85]
+INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:94]
+INFO: [Synth 8-638] synthesizing module 'IM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-256] done synthesizing module 'IM' (3#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:116]
+INFO: [Synth 8-638] synthesizing module 'add' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'add' (4#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:109]
+INFO: [Synth 8-256] done synthesizing module 'IF' (5#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:61]
+INFO: [Synth 8-638] synthesizing module 'Latch' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-256] done synthesizing module 'Latch' (6#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:74]
+INFO: [Synth 8-638] synthesizing module 'ID' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'control_path' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:540]
+INFO: [Synth 8-256] done synthesizing module 'control_path' (7#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:540]
+INFO: [Synth 8-638] synthesizing module 'regbank' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:225]
+INFO: [Synth 8-256] done synthesizing module 'regbank' (8#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:225]
+INFO: [Synth 8-638] synthesizing module 'signex' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:251]
+INFO: [Synth 8-256] done synthesizing module 'signex' (9#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:251]
+INFO: [Synth 8-256] done synthesizing module 'ID' (10#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:158]
+INFO: [Synth 8-638] synthesizing module 'Latch1' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:183]
+INFO: [Synth 8-256] done synthesizing module 'Latch1' (11#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:183]
+INFO: [Synth 8-638] synthesizing module 'EX' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:259]
+INFO: [Synth 8-638] synthesizing module 'mmux' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:216]
+INFO: [Synth 8-256] done synthesizing module 'mmux' (12#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:216]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:280]
+INFO: [Synth 8-256] done synthesizing module 'adder' (13#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:280]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:288]
+	Parameter ADD bound to: 4'b0000 
+	Parameter SUB bound to: 4'b0001 
+	Parameter AND bound to: 4'b0010 
+	Parameter OR bound to: 4'b0011 
+	Parameter NOT bound to: 4'b0100 
+	Parameter MUL bound to: 4'b0101 
+	Parameter DIV bound to: 4'b0110 
+	Parameter RSHIFT bound to: 4'b0111 
+	Parameter LSHIFT bound to: 4'b1000 
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:288]
+INFO: [Synth 8-638] synthesizing module 'alucontrol' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:411]
+INFO: [Synth 8-256] done synthesizing module 'alucontrol' (15#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:411]
+INFO: [Synth 8-256] done synthesizing module 'EX' (16#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:259]
+INFO: [Synth 8-638] synthesizing module 'Latch2' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:452]
+INFO: [Synth 8-256] done synthesizing module 'Latch2' (17#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:452]
+INFO: [Synth 8-638] synthesizing module 'MEM' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:481]
+INFO: [Synth 8-638] synthesizing module 'datamemory' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:513]
+	Parameter addr_size bound to: 32 - type: integer 
+	Parameter word_size bound to: 32 - type: integer 
+	Parameter memory_size bound to: 1024 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'datamemory' (18#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:513]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (19#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:481]
+INFO: [Synth 8-638] synthesizing module 'Latch3' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:493]
+INFO: [Synth 8-256] done synthesizing module 'Latch3' (20#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:493]
+INFO: [Synth 8-638] synthesizing module 'Wb' [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:530]
+INFO: [Synth 8-256] done synthesizing module 'Wb' (21#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:530]
+INFO: [Synth 8-256] done synthesizing module 'MIPS32_PIPELINE' (22#1) [C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v:24]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:12:14 ; elapsed = 12:58:09 . Memory (MB): peak = 1438.469 ; gain = 1266.969
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:12:14 ; elapsed = 12:58:09 . Memory (MB): peak = 1438.469 ; gain = 1266.969
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:12:17 ; elapsed = 12:58:11 . Memory (MB): peak = 1438.469 ; gain = 1266.969
+47 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1438.469 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 23:06:35 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1438.469 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 23:48:41 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1506.809 ; gain = 0.000
+current_project project_32bit_risc_processor
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-311] analyzing module Data_Path
+INFO: [VRFC 10-2458] undeclared symbol pcsrc, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:93]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX_MEM_WB
+INFO: [VRFC 10-2458] undeclared symbol readout2, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:277]
+INFO: [VRFC 10-2458] undeclared symbol status, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:279]
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module RISC_PROCESSOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol branch, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol memRead, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol memtoReg, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol memWrite, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol aluSrc, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol regWrite, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 150947e48ee149479503517647a483eb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port addOut [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:277]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.EX_MEM_WB
+Compiling module xil_defaultlib.Data_Path
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 23:49:16 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1506.809 ; gain = 0.000
+current_project MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sources_1/new/MIPS32_PIPELINE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS32_PIPELINE
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module Latch
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module Latch1
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module Latch2
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module Latch3
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module Wb
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 635595229ceb4f24887bb6d3e8db5cbd --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.Latch
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.Latch1
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.Latch2
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.MEM
+Compiling module xil_defaultlib.Latch3
+Compiling module xil_defaultlib.Wb
+Compiling module xil_defaultlib.MIPS32_PIPELINE
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 23:51:34 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1506.809 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+current_project project_32bit_risc_processor
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav'
+"xvlog -m64 --relax -prj test_bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-311] analyzing module Data_Path
+INFO: [VRFC 10-2458] undeclared symbol pcsrc, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:93]
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module mmux
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-311] analyzing module signex
+INFO: [VRFC 10-311] analyzing module EX_MEM_WB
+INFO: [VRFC 10-2458] undeclared symbol readout2, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:277]
+INFO: [VRFC 10-2458] undeclared symbol status, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:279]
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-311] analyzing module datamemory
+INFO: [VRFC 10-311] analyzing module RISC_PROCESSOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol branch, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol memRead, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol memtoReg, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol memWrite, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol aluSrc, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2458] undeclared symbol regWrite, assumed default net type wire [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sim_1/new/test_bench.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav'
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 150947e48ee149479503517647a483eb --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_bench_behav xil_defaultlib.test_bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port addOut [C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.srcs/sources_1/new/control_path.v:277]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.mmux
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.signex
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.alucontrol
+Compiling module xil_defaultlib.datamemory
+Compiling module xil_defaultlib.EX_MEM_WB
+Compiling module xil_defaultlib.Data_Path
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.test_bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_bench_behav
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/VIVADO -notrace
+couldn't read file "C:/Users/admin/VIVADO": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 06 23:55:08 2021...
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_behav -key {Behavioral:sim_1:Functional:test_bench} -tclbatch {test_bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source test_bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1506.809 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 07 00:26:10 2021...

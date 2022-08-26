@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Oct 28 19:43:14 2021
+# Process ID: 11824
+# Current directory: C:/Users/admin/VIVADO project/project_32bit_risc_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent976 C:\Users\admin\VIVADO project\project_32bit_risc_processor\project_32bit_risc_processor.xpr
+# Log file: C:/Users/admin/VIVADO project/project_32bit_risc_processor/vivado.log
+# Journal file: C:/Users/admin/VIVADO project/project_32bit_risc_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/admin/VIVADO project/project_32bit_risc_processor/project_32bit_risc_processor.xpr}
+open_project {C:/Users/admin/VIVADO project/32bit_RISC_processor_with_pipeline/32bit_RISC_processor_with_pipeline.xpr}
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+source test_mips32.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+close_project

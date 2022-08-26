@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# xsim v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Aug 24 22:48:31 2022
+# Process ID: 13924
+# Current directory: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav
+# Command line: xsim.exe -log simulate.log -mode tcl -source {xsim.dir/test_bench_behav/xsim_script.tcl}
+# Log file: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav/simulate.log
+# Journal file: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.sim/sim_1/behav\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/test_bench_behav/xsim_script.tcl
+source test_bench.tcl
+1
+6543
+dd
+55
+5 5 5 
+44
+end

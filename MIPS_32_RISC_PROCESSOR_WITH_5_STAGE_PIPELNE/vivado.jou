@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Aug 26 10:06:02 2022
+# Process ID: 2928
+# Current directory: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1192 C:\Users\admin\VIVADO project\MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE\MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.xpr
+# Log file: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/vivado.log
+# Journal file: C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/admin/VIVADO project/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE/MIPS_32_RISC_PROCESSOR_WITH_5_STAGE_PIPELNE.xpr}

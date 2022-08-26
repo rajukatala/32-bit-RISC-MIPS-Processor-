@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../signed_multiplication_using_booth_algorithm.srcs/sources_1/new/controlpath.v"
+verilog xil_defaultlib  "../../../signed_multiplication_using_booth_algorithm.srcs/sim_1/new/bsm_test.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
