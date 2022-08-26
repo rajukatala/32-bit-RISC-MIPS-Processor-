@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Processor_32bit_RISC_verilog
 
 This is a simple RISC 32 bit processor made using Verilog.
@@ -91,11 +92,4 @@ assembly language.
 * The output i.e. Updated register file and updated memory is stored in "Updated_Memory" file.
 ----------------------------------------------------------
 * The simulation time can be varied from the test processor file.
-
-
-
-
-
-
-
 
