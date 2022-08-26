@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Processor_32bit_RISC_verilog
 
 This is a simple RISC 32 bit processor made using Verilog.
