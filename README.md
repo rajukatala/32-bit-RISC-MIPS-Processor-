@@ -33,10 +33,15 @@ This is a simple RISC 32 bit processor made using Verilog.
        4. Memory access.
 
        5. Write back.
+# MIPS32 Processor Without Pipeline
   -------------------------------------------------------------------------------------------------------------------
   ![MIPS32 Processor Without Pipeline](php1Dz2Oh.png)
-  -------------------------------------------------------------------------------------------------------------------
-  ![MIPS32 Processor With 5 Stage pipeline] (mips.png)
+  --------------------------------------------------------------------
+# MIPS32 Processor With 5 Stage Pipeline
+  -----------------------------------------------
+   ![MIPS32 Processor With 5 Stage Pipeline](mips.png)
+  ----------------------------------------------------------
+   ![5 Stage Pipeline] (FIVE PIPELINE STAGE.png)
 # Memory
 
  * 216 X 32 Data memory.
