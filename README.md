@@ -64,7 +64,15 @@ This is a simple RISC 32 bit processor made using Verilog.
 * Used 3 types of instruction set (R-type, I-type, J-type)
 * Instruction are Arithmetic, branch,load-store,call instruction.
 
---------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------
+![MIPS32 Processor With 5 Stage Pipeline](INSTRUCTION_SET.png)
+----------------------------------------
+# How Control Signal Used
+------------------------------------------------------------------
+  ![MIPS32 Processor With 5 Stage Pipeline](CSU.png)
+
+-------------------------------------------------------------------
+
 # Assembly Program
    sample program:
  //FACTORIAL of n
