@@ -1,64 +1,63 @@
-# Processor_32bit_RISC_verilog
+# DESIGN AND VERIFICATION OF 32-BIT 5-STAGE PIPELINE RISC CPU USING XILINX VIVADO TOOL
 
 This is a simple RISC 32 bit processor made using Verilog.
-This is based on the idea provided by dr.Smruti ranjan sarangi sir(IIT Delhi,Computer organisation and Architecture).
+
 
 ---------------------------------------------------------------------------------------------------------------------
 # Description
 
-  * This is Single cycle processor.
-  * It has five stages mainly, 
-  
-  1. Instruction Fetch (IF)
-  2. Operand Fetch     (OF)
-  3. Execute           (EX)
-  4. Memory Access     (MA)
-  5. Writeback         (WB)
+ * RISC Methodology.
+
+ * Harvard Architecture.
+
+ * 32 bit data bus.
+
+ * 216 X 32 Data memory.
+
+ * 216 X 32 Instruction memory.
+
+ * 32 bit ALU.
+
+ * 3 types of instruction set (R-type, I-type, J-type)
+
+ * Load-store architecture.
+
+ * 5 stage pipeline:
+
+       1. Instruction fetch.
+
+       2. Instruction decode.
+
+       3. Execute.
+
+       4. Memory access.
+
+       5. Write back.
   -------------------------------------------------------------------------------------------------------------------
-  ![SINGLE CYCLE PROCESSOR](php1Dz2Oh.png)
+  ![MIPS32 Processor Without Pipeline](php1Dz2Oh.png)
+  -------------------------------------------------------------------------------------------------------------------
+  ![MIPS32 Processor With 5 Stage pipeline] (mips.png)
 # Memory
 
- * It has 4KB of Random access memory.
- * Memory is 8 bits wide but processor access 32 bits (4B) for Operation.
+ * 216 X 32 Data memory.
+
+ * 216 X 32 Instruction memory.
 ---------------------------------------------------------------------------------------------------------------------
 
 # Register
 
-* It has 16 Registers.
-* Out of those 14 (R0,R1....R13) are General purpose Register.
-* R14 (Stack Pointer) and R15 (Return Address Register) are Special purpose register.
+* It has 32 Registers.
 * Each Register is 32 bit wide and clock edge triggered. 
+* A register bank or register file is a group of registers, any of which can be randomly accessed.
+* Registers banks often allow concurrent accesses:                                                                                                                     
+      - MIPS32 allows 2 register reads and 1 register write every clock cycle.
+* We show various ways of designing a register bank that supports two reads and one write simultaneously:                                                               
+      - It is assumed that the same register is not read and written simultaneously.
 ---------------------------------------------------------------------------------------------------------------------
 # Instruction Set
 
-* It has total 21 Instruction.
-* out of which 13 are Arithmetic instructions and remaining are branch,load-store,call instruction.
-Arithmetc Instructions:
-
- 1. add
- 2. sub
- 3. mul
- 4. div
- 5. mod
- 6. cmp
- 7. and
- 8. or
- 9. not
-10. mov
-11. lsl
-12. lsr
-13. asr
-
-Others:
-
-1. nop
-2. ld
-3. st
-4. beq
-5. bgt
-6. b
-7. call
-8. ret
+* Used 3 types of instruction set (R-type, I-type, J-type)
+* Instruction are Arithmetic, branch,load-store,call instruction.
 
 --------------------------------------------------------------------------------------------------------------
 # Assembly Program
@@ -81,14 +80,6 @@ Others:
 
 .EXIT:
 
-      
- ------------------------------------------------------------------------------------------------------------------  
-# instructions to run
-----------------------------------------------------------
-* The assembly program has to be written in "program.asm" file in 
-assembly language.
-* The Hex file is "Input_Memory" which is read by the processor.
-* The output i.e. Updated register file and updated memory is stored in "Updated_Memory" file.
 ----------------------------------------------------------
 * The simulation time can be varied from the test processor file.
 
