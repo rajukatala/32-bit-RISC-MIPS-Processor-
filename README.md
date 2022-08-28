@@ -41,7 +41,7 @@ This is a simple RISC 32 bit processor made using Verilog.
   -----------------------------------------------
    ![MIPS32 Processor With 5 Stage Pipeline](mips.png)
   ----------------------------------------------------------
-   ![MIPS32 Processor Without Pipeline](FIVE_PIPELINE_STAGE.png)
+   ![MIPS32 Processor Without Pipeline](FSP.png)
 # Memory
 
  * 216 X 32 Data memory.
