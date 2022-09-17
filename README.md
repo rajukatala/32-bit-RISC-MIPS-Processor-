@@ -8,7 +8,7 @@ This is a simple RISC 32 bit processor made using Verilog.
 
  * RISC Methodology.
 
- * Harvard Architecture.
+ * ISA Architecture.
 
  * 32 bit data bus.
 
